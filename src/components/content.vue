@@ -16,7 +16,7 @@
               <span class="img" v-else :style="{background: card.bg_color}">{{card.bg_text}}</span>
               <h3>{{card.name}}</h3>
             </div>
-            <p>{{card.desc}}</p>
+            <p class="desc">{{card.desc}}</p>
           </a>
           <div class="delete" @click="onDelete(card)">
             <i class="iconfont icon-delete2"></i>
@@ -181,9 +181,10 @@ export default {
               h3
                 display inline-block
                 vertical-align middle
-            p
+            .desc
               color gray
               font-size 12px
+              line-height 1.5
               padding-top 10px
               height 35px
               text-align left 
