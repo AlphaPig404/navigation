@@ -131,7 +131,7 @@ const groups = [{
 const cards = [
   {
     name:"腾讯AlloyTeam团队",
-    img: "/static/images/alloyteam-favicon.jpg",
+    img: "/assets/images/alloyteam-favicon.jpg",
     url: "http://www.alloyteam.com/",
     desc: "腾讯Web前端团队，代表作品WebQQ，致力于前端技术的研究",
     id: 1,
@@ -1126,7 +1126,7 @@ const cards = [
   },
   {
     name: "预约挂号",
-    img: "/static/images/jkt-logo.jpg",
+    img: "/assets/images/jkt-logo.jpg",
     url: "http://wap.guahao.gov.cn/v4_common.xhtml?goto=index",
     desc: "健康通微信改版正式环境预约挂号首页",
     id: 84,
@@ -1138,7 +1138,7 @@ const cards = [
   },
   {
     name: "当天挂号",
-    img: "/static/images/jkt-logo.jpg",
+    img: "/assets/images/jkt-logo.jpg",
     url: "http://wap.guahao.gov.cn/v4_common.xhtml?goto=index&IS_TODAY=1",
     desc: "健康通微信改版正式环境当天挂号",
     id: 85,
@@ -1150,7 +1150,7 @@ const cards = [
   },
   {
     name: "医疗缴费",
-    img: "/static/images/jkt-logo.jpg",
+    img: "/assets/images/jkt-logo.jpg",
     url: "http://wap.guahao.gov.cn/v4_common.xhtml?goto=payment",
     desc: "健康通微信改版正式环境医疗缴费",
     id: 86,
@@ -1162,7 +1162,7 @@ const cards = [
   },
   {
     name: "我的收藏",
-    img: "/static/images/jkt-logo.jpg",
+    img: "/assets/images/jkt-logo.jpg",
     url: "http://wap.guahao.gov.cn/v4_common.xhtml?goto=collection",
     desc: "健康通微信改版正式环境我的收藏",
     id: 87,
@@ -1174,7 +1174,7 @@ const cards = [
   },
   {
     name: "排队候诊",
-    img: "/static/images/jkt-logo.jpg",
+    img: "/assets/images/jkt-logo.jpg",
     url: "http://wap.guahao.gov.cn/v4_common.xhtml?goto=queue",
     desc: "健康通微信改版正式环境排队候诊",
     id: 88,
@@ -1186,7 +1186,7 @@ const cards = [
   },
   {
     name: "医院导航",
-    img: "/static/images/jkt-logo.jpg",
+    img: "/assets/images/jkt-logo.jpg",
     url: "http://wap.guahao.gov.cn/v4_common.xhtml?goto=navigation",
     desc: "健康通微信改版正式环境医院导航",
     id: 89,
@@ -1198,7 +1198,7 @@ const cards = [
   },
   {
     name: "注册登录",
-    img: "/static/images/jkt-logo.jpg",
+    img: "/assets/images/jkt-logo.jpg",
     url: "http://wap.guahao.gov.cn/v4_common.xhtml?goto=login",
     desc: "健康通微信改版正式环境注册登录",
     id: 90,
@@ -1210,7 +1210,7 @@ const cards = [
   },
   {
     name: "意见反馈",
-    img: "/static/images/jkt-logo.jpg",
+    img: "/assets/images/jkt-logo.jpg",
     url: "http://wap.guahao.gov.cn/v4_common.xhtml?goto=opinion",
     desc: "健康通微信改版正式环境意见反馈",
     id: 91,
@@ -1222,7 +1222,7 @@ const cards = [
   },
   {
     name: "我的资料",
-    img: "/static/images/jkt-logo.jpg",
+    img: "/assets/images/jkt-logo.jpg",
     url: "http://wap.guahao.gov.cn/v4_common.xhtml?goto=usr",
     desc: "健康通微信改版正式环境我的资料",
     id: 92,
@@ -1234,7 +1234,7 @@ const cards = [
   },
   {
     name: "我的订单",
-    img: "/static/images/jkt-logo.jpg",
+    img: "/assets/images/jkt-logo.jpg",
     url: "http://wap.guahao.gov.cn/v4_common.xhtml?goto=order",
     desc: "健康通微信改版正式环境我的订单",
     id: 93,
@@ -1246,7 +1246,7 @@ const cards = [
   },
   {
     name: "关于我们",
-    img: "/static/images/jkt-logo.jpg",
+    img: "/assets/images/jkt-logo.jpg",
     url: "http://wap.guahao.gov.cn/v4_common.xhtml?goto=about",
     desc: "健康通微信改版正式环境关于我们",
     id: 94,
@@ -1258,7 +1258,7 @@ const cards = [
   },
   {
     name: "预约挂号",
-    img: "/static/images/jy-logo.png",
+    img: "/assets/images/jy-logo.png",
     url: "http://wx.guahao.gov.cn/v4_common.xhtml?goto=index",
     desc: "健康通微信改版测试环境预约挂号首页",
     id: 95,
@@ -1270,7 +1270,7 @@ const cards = [
   },
   {
     name: "当天挂号",
-    img: "/static/images/jy-logo.png",
+    img: "/assets/images/jy-logo.png",
     url: "http://wx.guahao.gov.cn/v4_common.xhtml?goto=index&IS_TODAY=1",
     desc: "健康通微信改版测试环境当天挂号",
     id: 96,
@@ -1282,7 +1282,7 @@ const cards = [
   },
   {
     name: "医疗缴费",
-    img: "/static/images/jy-logo.png",
+    img: "/assets/images/jy-logo.png",
     url: "http://wx.guahao.gov.cn/v4_common.xhtml?goto=payment",
     desc: "健康通微信改版测试环境医疗缴费",
     id: 97,
@@ -1294,7 +1294,7 @@ const cards = [
   },
   {
     name: "我的收藏",
-    img: "/static/images/jy-logo.png",
+    img: "/assets/images/jy-logo.png",
     url: "http://wx.guahao.gov.cn/v4_common.xhtml?goto=collection",
     desc: "健康通微信改版测试环境我的收藏",
     id: 98,
@@ -1306,7 +1306,7 @@ const cards = [
   },
   {
     name: "排队候诊",
-    img: "/static/images/jy-logo.png",
+    img: "/assets/images/jy-logo.png",
     url: "http://wx.guahao.gov.cn/v4_common.xhtml?goto=queue",
     desc: "健康通微信改版测试环境排队候诊",
     id: 99,
@@ -1318,7 +1318,7 @@ const cards = [
   },
   {
     name: "医院导航",
-    img: "/static/images/jy-logo.png",
+    img: "/assets/images/jy-logo.png",
     url: "http://wx.guahao.gov.cn/v4_common.xhtml?goto=navigation",
     desc: "健康通微信改版测试环境医院导航",
     id: 100,
@@ -1330,7 +1330,7 @@ const cards = [
   },
   {
     name: "注册登录",
-    img: "/static/images/jy-logo.png",
+    img: "/assets/images/jy-logo.png",
     url: "http://wx.guahao.gov.cn/v4_common.xhtml?goto=login",
     desc: "健康通微信改版测试环境注册登录",
     id: 101,
@@ -1342,7 +1342,7 @@ const cards = [
   },
   {
     name: "意见反馈",
-    img: "/static/images/jy-logo.png",
+    img: "/assets/images/jy-logo.png",
     url: "http://wx.guahao.gov.cn/v4_common.xhtml?goto=opinion",
     desc: "健康通微信改版测试环境意见反馈",
     id: 102,
@@ -1354,7 +1354,7 @@ const cards = [
   },
   {
     name: "我的资料",
-    img: "/static/images/jy-logo.png",
+    img: "/assets/images/jy-logo.png",
     url: "http://wx.guahao.gov.cn/v4_common.xhtml?goto=usr",
     desc: "健康通微信改版测试环境我的资料",
     id: 103,
@@ -1366,7 +1366,7 @@ const cards = [
   },
   {
     name: "我的订单",
-    img: "/static/images/jy-logo.png",
+    img: "/assets/images/jy-logo.png",
     url: "http://wx.guahao.gov.cn/v4_common.xhtml?goto=order",
     desc: "健康通微信改版测试环境我的订单",
     id: 104,
@@ -1378,7 +1378,7 @@ const cards = [
   },
   {
     name: "关于我们",
-    img: "/static/images/jy-logo.png",
+    img: "/assets/images/jy-logo.png",
     url: "http://wx.guahao.gov.cn/v4_common.xhtml?goto=about",
     desc: "健康通微信改版测试环境关于我们",
     id: 105,

@@ -51,7 +51,12 @@ export default {
   data() {
     return {
       cards: [],
-      tops: []
+      tops: [],
+      images: {
+        'alloyteam-favicon': require('../assets/images/alloyteam-favicon.jpg'),
+        'jkt-logo': require('../assets/images/jkt-logo.jpg'),
+        'jy-logo': require('../assets/images/jy-logo.png'),
+      }
     }
   },
   mounted(){
@@ -71,7 +76,10 @@ export default {
       return `icon-${icon}`
     },
     prefixImg(img) {
-      if(img.match(/alloyteam-favicon|jkt-logo|jy-logo/)){return img}
+      const str = img.match(/alloyteam-favicon|jkt-logo|jy-logo/)
+      if(str){
+        return this.images[str[0]]
+      }
       return `http://www.alloyteam.com/nav${img}`
     },
     onDelete(card){
