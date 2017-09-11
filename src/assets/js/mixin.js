@@ -12,6 +12,14 @@ export default {
     this.initDB()
   },
   methods: {
+    setLocalStore(name,value){
+      value = JSON.stringify(value)
+      localStorage.setItem(name,value)
+    },
+    getLocalStore(name){
+      const value = localStorage.getItem(name)
+      return value?JSON.parse(value): false
+    },
     initDB(){
       var db = new Dexie('Navigation')
 
@@ -26,10 +34,15 @@ export default {
         alert('Uh oh : ' + error)
       })
 
-
-      db.folders.bulkPut(data.folders)
-      db.groups.bulkPut(data.groups)
-      db.cards.bulkPut(data.cards)
+      if(this.getLocalStore('_navigation')){
+        // do nothing
+      }else{
+        // init db
+        db.folders.bulkPut(data.folders)
+        db.groups.bulkPut(data.groups)
+        db.cards.bulkPut(data.cards)
+        this.setLocalStore('_navigation',true)
+      }
 
       return this.db = db
     },
