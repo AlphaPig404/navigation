@@ -4,7 +4,7 @@
       <section class="title_wrapper">
         <v-title @searchInput="onSearch"></v-title>
         <section class="drop_wrapper">
-          <v-dropDown :data="search_data" :showFlag="show_drop"></v-dropDown>
+          <v-dropDown :data="search_data" :showFlag="show_drop" @redirect="show_drop=false"></v-dropDown>
         </section>
       </section>
       <section class="nav_wrapper">

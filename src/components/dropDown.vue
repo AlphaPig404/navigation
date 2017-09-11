@@ -15,7 +15,10 @@
     props:['data','showFlag'],
     methods:{
       onSelected(item){
-        location.href = item.url
+        this.$emit('redirect')
+        setTimeout(()=>{
+          window.open(item.url)
+        },10)
       }
     }
   }
