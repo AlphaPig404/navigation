@@ -45,7 +45,7 @@
         width: 200px;
         border: none;
         height: 30px;
-        padding: 0 10px;
+        padding: 0 20px;
         border-radius: 20px;
         outline none
         &::placeholder
